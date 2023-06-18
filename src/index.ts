@@ -13,6 +13,9 @@ import { TODAY } from "./constant/any-constant";
 import { transformResultsToEmailBody } from "./helpers/results-to-email-body";
 
 dotenv.config();
+
+console.log(`[${new Date}] service up`);
+
 cron.schedule("0 17 * * *", async () => {
   try {
     const keywords = await getKeywords();
