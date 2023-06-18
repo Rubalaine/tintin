@@ -14,7 +14,6 @@ import { transformResultsToEmailBody } from "./helpers/results-to-email-body";
 
 dotenv.config();
 
-console.log(`[${new Date}] service up`);
 
 cron.schedule("0 17 * * *", async () => {
   try {
@@ -60,3 +59,5 @@ cron.schedule("0 19 * * *", async () => {
     console.error(`[${new Date()}] Error while sending emails`, error);
   }
 });
+
+console.log(`[${new Date}] service up`);
