@@ -15,7 +15,7 @@ import { transformResultsToEmailBody } from "./helpers/results-to-email-body";
 dotenv.config();
 
 
-cron.schedule("0 18 * * *", async () => {
+cron.schedule("10 18 * * *", async () => {
   try {
     const keywords = await getKeywords();
     const urls = await getUrls();
