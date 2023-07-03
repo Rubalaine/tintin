@@ -9,7 +9,7 @@
     "start": "yarn build && node dist/index.js"
   },
   "devDependencies": {
-    "@tsconfig/node16": "^1.0.4",
+    "@tsconfig/node16": "^16.1.0",
     "@types/node": "^20.3.1",
     "@types/node-cron": "^3.0.8",
     "@types/nodemailer": "^6.4.8",
