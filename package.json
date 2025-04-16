@@ -10,7 +10,7 @@
   },
   "devDependencies": {
     "@tsconfig/node16": "^16.1.0",
-    "@types/node": "^20.4.1",
+    "@types/node": "^20.8.3",
     "@types/node-cron": "^3.0.8",
     "@types/nodemailer": "^6.4.8",
     "nodemon": "^3.0.1",
